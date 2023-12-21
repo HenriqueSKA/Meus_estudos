@@ -1,11 +1,10 @@
+// Arrays podem receber qualquer tipo da dado, inclusive outros arrays
 const arr = [
-    
+    "1º Nível",
+    ["2º nível", 42, true],
     [
-    "1º nivel",
-    "2º nivel",
-    "3º nivel"
-    ]
-
-]
-
-console.log(arr)
+      ["3º nível, 1º item", "Olá, mundo!"],
+      ["3º nível, 2º item", "Oi, mundo!"],
+    ],
+    []
+  ]
